@@ -5,4 +5,4 @@ I enjoyed using Tailwind CSS and will reach for it on future projects.
 ## Glide-JS
 The glider in the website was from the Glide JS library\
 I did the glider styling with Tailwind as well\
-Just used Glid JS just for the functionality
+Just used Glide JS just for the functionality
