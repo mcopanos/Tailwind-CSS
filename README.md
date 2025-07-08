@@ -1,4 +1,4 @@
 # Tailwind-CSS
 Website styled only using Tailwind
-##Glide-JS
+## Glide-JS
 The glider in the website was from the Glide JS library
