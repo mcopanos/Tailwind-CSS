@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/41fbc51d0b.js" crossorigin="anonymous"></script>
+    <title>TailWind CSS</title>
+</head>
+
+<body class="bg-stone-200/50 text-slate-950/75" style="background-color: #fdd001;">
+    <div style="background-color: #fede02;">
+        <nav class="flex flex-row mx-auto max-w-6xl gap-x-4 p-6">
+            <span id="logo" class="basis-1/3 text-amber-500/75 text-2xl uppercase font-bold cursor-pointer">The
+                Breakfast
+                Place</span>
+            <ul id="navbar" class="basis-2/3 flex justify-evenly text-md"></ul>
+        </nav>
+    </div>
+    <section id="main-image">
+        <img class="object-cover md:object-cover aspect-3/2 h-screen w-screen" src="images/main-image/main-image.jpg"
+            alt="Picture of a banana and a bowl">
+    </section>
+
+    <section style="background-color: #fdd001;" class="glide mx-auto overflow-hidden">
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides flex">
+            </ul>
+        </div>
+    </section>
+
+    <section class="w-screen max-h-110 flex">
+        <div class="h-full w-[40%] text-center">
+            <div class="flex flex-col justify-evenly mx-auto w-[420px] h-110">
+                <div>
+                    <h2 class="text-2xl font-bold"><span class="italic font-normal">Our Food...</span> GOOD MORNINGS
+                    </h2>
+                </div>
+                <div class="text-lg">
+                    <p>We hope you all enjoy the same feeling we have when our Shackers smell bacon, hot
+                        syrup, or
+                        freshly
+                        brewed coffee and ready to start a new day better than the last.</p>
+                </div>
+                <div>
+                    <button class="border p-2 pl-6 pr-6 hover:text-amber-800/75 cursor-pointer hover:scale-105">Learn
+                        More</button>
+                </div>
+            </div>
+        </div>
+        <div class="w-[60%]">
+            <img class="size-full object-fill" src="images/two-thirds-images/breakfast-meal.jpg" alt="Image of food">
+        </div>
+    </section>
+
+    <section class="w-screen max-h-110 flex">
+        <div class="w-[60%]">
+            <img class="size-full object-fill" src="images/two-thirds-images/breakfast-meal-2.jpg" alt="Image of food">
+        </div>
+        <div class="h-full w-[40%] text-center">
+            <div class="flex flex-col justify-evenly mx-auto w-[420px] h-110">
+                <div>
+                    <h2 class="text-2xl font-bold">IT WAS A MISTAKE... <span class="italic font-thin">made
+                            right</span></h2>
+                </div>
+                <div class="text-lg">
+                    <p>We started The Shack as a "greasy spoon pub" in Springfield known as The Breakfast Pub Grub.
+                        After a couple of years of losing a ton of money and a building eventually caving in on us, we
+                        headed out to the 'burbs to cook up some of the best breakfast that we could.
+                        The intention of our Breakfast was...</p>
+                </div>
+                <div>
+                    <button class="border p-2 pl-6 pr-6 hover:text-amber-800/75 cursor-pointer hover:scale-105">Learn
+                        More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="w-screen max-h-110 flex">
+        <div class="h-full w-[40%] text-center">
+            <div class="flex flex-col justify-evenly mx-auto w-[420px] h-110">
+                <div>
+                    <h2 class="text-2xl font-bold">The Breakfast Place Locations</h2>
+                </div>
+                <div class="text-lg">
+                    <p>FROM MISSOURI & KANSAS
+                        TO SOMEWHERE NEAR YOU SOON</p>
+                </div>
+                <div>
+                    <button class="border p-2 pl-6 pr-6 hover:text-amber-800/75 cursor-pointer hover:scale-105">Find
+                        Locations</button>
+                </div>
+            </div>
+        </div>
+        <div class="w-[60%]">
+            <img class="size-full object-fill" src="images/two-thirds-images/breakfast-meal-3.jpg" alt="Image of food">
+        </div>
+    </section>
+    <footer class="flex flex-row justify-evenly content-center mx-auto max-w-screen p-8">
+        <!-- email input -->
+        <div>
+            <input class="border h-[30px] bg-white w-sm text-center text-slate-950 focus: " type="text"
+                placeholder="Enter your email for Breakfast Place specials">
+            <button class="hover:cursor-pointer pl-6">Subscribe</button>
+        </div>
+        <!-- social links -->
+        <div>
+            <i class="fa fa-facebook fa-lg pr-2 hover:cursor-pointer" aria-hidden="true"></i>
+            <i class="fa fa-instagram fa-lg pl-2 hover:cursor-pointer" aria-hidden="true"></i>
+        </div>
+        <!-- nav links -->
+        <div>
+            <ul id="footer" class="flex gap-x-6">
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
